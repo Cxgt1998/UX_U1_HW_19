@@ -1,0 +1,166 @@
+/* Website backround */
+.html{
+    background-color: #e9eae8;
+}
+
+/* Image */
+.logo {
+    width: 1783px;
+    Height: 800px;
+    object-fit: cover;
+    background-color: #173a32;
+    align-content: center;
+    overflow: hidden;
+  
+}
+
+/* Navigation Bar */
+.topnav {
+    background-color: #173a32;
+    overflow: hidden;
+  }
+  
+  /* Inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: White;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 40px;
+    word-spacing: 3px;
+  }
+  
+  /* Color of links on hover */
+  .topnav a:hover {
+    background-color: transparent;
+    color: #819691;
+  }
+ 
+
+  /* Hero Image*/
+.img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+  .hero{
+    height: auto;
+    width: 1784px;
+    left: 0px;
+    right: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: stretch;
+    position: relative;
+  }
+
+
+  /* Our Mission */
+  .OurMission {
+    text-align: center;
+    font-size: 30pt;
+    color: #173a32;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+/* Meet Our Team */
+.MeetOurTeam {
+    text-align: center;
+    font-size: 30pt;
+    color: #173a32;
+}
+
+.columns {
+    float: left;
+    width: 50%;
+    text-align: center;
+    
+  }
+
+.rows:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+/* Current Highlights */
+.Highlights {
+    text-align: center;
+    font-size: 30pt;
+    color: #173a32;
+}
+
+  .rowss {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4px;
+  }
+  
+  .columnss {
+    flex: 24.4%;
+    max-width: 24.4%;
+    padding: 4px;
+  }
+  
+  .columnss img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+
+/* Button */
+.button {
+    width: 400px; 
+    height: 100px;
+    display: inline-block;
+    color: #e9eae8 ;
+    background-color: #819691;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    size: 100pt;
+    border: none;
+    border-radius: 20px;
+  }
+
+.margin {
+    margin: 0 auto;
+}
+
+/* Footer */
+.footer {
+    background-color: #173a32;
+    height: 200px;
+}
+
+.description {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e9eae8;
+    margin: center;
+}
+
+.address {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e9eae8;
+    size: 20px;
+    margin: center;
+}
